@@ -20,7 +20,6 @@ nav {
 }
 
 
-
 body {
   background-color: black;
 }
@@ -53,7 +52,6 @@ header{
   text-align: center;
   padding: 35px;
 }
-
 
 .logoAulab{
   width: 140px;
@@ -92,8 +90,79 @@ img {
 
 .flex{
   display: flex;
-  background-color: blue;
+  background-color: gray;
   justify-content: space-between;
   height: 80vh;
   align-items: center;
+}
+
+main{
+    display: flex;
+}
+
+.boxGiallo{
+    background-color: rgb(255, 247, 17);
+    padding: 25px;
+    text-align: center;
+}
+
+.boxGiallo h2, p{
+    color: black;
+}
+
+.boxGiallo p{
+    font-size: 15px;
+}
+
+.boxArticolo{
+  margin-bottom: 50px;
+}
+
+footer{
+  background-color: rgb(118, 118, 118);
+  display: flex;
+  height: 200px;
+  justify-content:space-around;
+  align-items: center;
+}
+
+footer li{
+  list-style-type: none;
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9000;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .logoAulab {
+    width: 80px; 
+    height: auto;
+  }
+
+  #listLink li a {
+    font-size: 10px;
+  }
+  
+  main {
+    flex-direction: column;
+  }
+
+  .flex {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  /* Assicuriamoci che occupino tutta la larghezza */
+  .boxArticolo, .boxGiallo {
+    width: 100%;
+  }
 }
