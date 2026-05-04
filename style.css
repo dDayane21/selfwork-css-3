@@ -1,0 +1,99 @@
+
+*{
+  font-family: "Montserrat", sans-serif;
+  color:white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 45px;
+}
+
+#listLink {
+    display: flex;
+}
+
+#listLink li a{
+    font-size: 12px;
+}
+
+
+
+body {
+  background-color: black;
+}
+
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 21
+  px;
+  color:rgb(255, 247, 17);
+}
+
+
+h3 {
+  font-size: 14px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(https://img.freepik.com/foto-gratuito/mani-femminili-che-digitano-sulla-tastiera-di-computer_1303-27362.jpg?semt=ais_hybrid&w=740&q=80);
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 35px;
+}
+
+
+.logoAulab{
+  width: 140px;
+  height: 70px;
+}
+
+#listLink{
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 35px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#listLink li a:hover{
+    border-bottom: 1px solid  rgb(255, 247, 17)
+}
+
+img {
+  height: 250px;
+}
+
+.btn {
+  background-color: rgb(255, 247, 17);
+  color: black;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: rgb(128, 128, 128);
+  color: white;
+}
+
+.flex{
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: center;
+}
